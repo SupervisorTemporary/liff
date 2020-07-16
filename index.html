@@ -80,7 +80,7 @@
       document.getEnvironmentById("version").append(liff.getVersion())
       document.getEnvironmentById("accessToken").append(liff.getAccessToken())
       document.getEnvironmentById("isInClient").append(liff.getisInClient())
-      if{}(liff.isInClient()){
+      if (liff.isInClient()){
         document.getEnvironmentById("btnLogOut").style.display = "none"
     } else {
       document.getEnvironmentById("btnMsg").style.display = "none"
